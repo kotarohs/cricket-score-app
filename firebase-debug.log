@@ -1,0 +1,78 @@
+[debug] [2024-07-27T07:36:23.171Z] ----------------------------------------------------------------------
+[debug] [2024-07-27T07:36:23.174Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-27T07:36:23.175Z] CLI Version:   13.14.2
+[debug] [2024-07-27T07:36:23.175Z] Platform:      win32
+[debug] [2024-07-27T07:36:23.175Z] Node Version:  v20.16.0
+[debug] [2024-07-27T07:36:23.175Z] Time:          Sat Jul 27 2024 13:06:23 GMT+0530 (India Standard Time)
+[debug] [2024-07-27T07:36:23.175Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-27T07:36:23.183Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-27T07:36:23.184Z] > authorizing via signed-in user (21.kotarohs.22@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rohit\Documents\Learn\cricket-score-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-07-27T07:37:03.701Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-07-27T07:37:03.701Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"score-card","name":"score-card"}
+[debug] [2024-07-27T07:37:05.265Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-07-27T07:37:05.265Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-07-27T07:37:05.519Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\rohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\rohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID score-card. Please try again with a unique project ID.
+[debug] [2024-07-27T07:37:16.112Z] ----------------------------------------------------------------------
+[debug] [2024-07-27T07:37:16.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-27T07:37:16.116Z] CLI Version:   13.14.2
+[debug] [2024-07-27T07:37:16.117Z] Platform:      win32
+[debug] [2024-07-27T07:37:16.117Z] Node Version:  v20.16.0
+[debug] [2024-07-27T07:37:16.117Z] Time:          Sat Jul 27 2024 13:07:16 GMT+0530 (India Standard Time)
+[debug] [2024-07-27T07:37:16.117Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-27T07:37:16.126Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-27T07:37:16.127Z] > authorizing via signed-in user (21.kotarohs.22@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rohit\Documents\Learn\cricket-score-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-07-27T07:37:31.248Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-07-27T07:37:31.248Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"cricket","name":"score"}
+[debug] [2024-07-27T07:37:31.771Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-07-27T07:37:31.771Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-07-27T07:37:31.979Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\rohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\rohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID cricket. Please try again with a unique project ID.
