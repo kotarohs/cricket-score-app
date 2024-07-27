@@ -20,6 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://kotarohs.github.io/cricket-score-app",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -37,6 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://<YOUR_GITHUB_USERNAME>.github.io/cricket-score-app"
+  }
 }
